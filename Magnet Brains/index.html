@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Punase - UI/UX Trainee - Task</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="main">
+        <div id="overlay">
+            <h2>Back to School With Magnet Brains: <span>E-Notes & E-Books</span></h2>
+            <p>⏰ Special Offer ⏰ Use Code 👉 "SCHOOL10"</p>
+        </div>
+        <div class="navbar">
+            <div id="nav-left">
+                <div id="logo-div">
+                    <a href="https://www.magnetbrains.com/">
+                        <img id="logo" src="./mp dark logo.png" alt="">
+                     </a>
+                </div>
+            </div>
+            <div id="nav-right">
+              <button>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M320 408c0-6.428-.8457-12.66-2.434-18.6C338.2 376.7 352 353.9 352 328c0-6.428-.8457-12.66-2.434-18.6C370.2 296.7 384 273.9 384 248c0-2.705-.1484-5.373-.4414-8H440C479.7 240 512 207.7 512 168S479.7 96 440 96H243.7C227.5 76.51 203.2 64 176 64H126.1C94.02 64 64.47 81.1 49 108.6L17.65 164.5C6.104 185.1 0 208.4 0 231.8v107.9C0 417.1 64.6 480 144 480h104C287.7 480 320 447.7 320 408zM280 304c13.23 0 24 10.78 24 24S293.2 352 280 352H232.1C218.9 352 208 341.2 208 328S218.8 304 232 304H280zM312 224c13.23 0 24 10.78 24 24S325.2 272 312 272h-48c-3.029 0-5.875-.7012-8.545-1.73C260.7 259.9 264 248.4 264 236V224H312zM440 144c13.23 0 24 10.78 24 24S453.2 192 440 192h-176V152c0-2.686-.5566-5.217-.793-7.84C263.5 144.2 263.7 144 264 144H440zM48 339.7V231.8c0-15.25 3.984-30.41 11.52-43.88l31.34-55.78C97.84 119.7 111.4 112 126.1 112H176c22.06 0 40 17.94 40 40v84c0 15.44-12.56 28-28 28S160 251.4 160 236V184C160 170.8 149.3 160 136 160S112 170.8 112 184v52c0 33.23 21.58 61.25 51.36 71.54C161.3 314 160 320.9 160 328c0 5.041 1.166 9.836 2.178 14.66C137.4 354 120 378.1 120 408c0 7.684 1.557 14.94 3.836 21.87C80.56 420.9 48 383.9 48 339.7zM192 432c-13.23 0-24-10.78-24-24S178.8 384 192 384h56c13.23 0 24 10.78 24 24s-10.77 24-24 24H192z"
+                  ></path>
+                </svg>
+                Grab E-Notes
+              </button>
+            </div>
+        </div>
+        <div id="page1">
+            <div class="p-left">
+                <div id="box">
+                    <h1>India's No.1</h1>
+                    <h2>100% Free Online<br>Education Platform</h2>
+                </div>
+            </div>
+            <div class="p-right">
+                <div id="img-div">
+                    <img src="./student1.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <section id="courses-section">
+            <h1 style="position: absolute; left: 9%; top: 5%; color: #062951;font-size: 30px; font-weight: 800; letter-spacing: -.3px;"" class="section_heading">Explore Top Courses</h1>
+            <div class="coursesTabContainer">
+              <div class="tabs">
+                <button class="tab-button active" id="tab1">
+                  👉 CBSE English Medium
+                </button>
+                <button class="tab-button" id="tab2">👉 CBSE Hindi Medium</button>
+                <button class="tab-button" id="tab3">
+                  👉 MP Board Hindi Medium
+                </button>
+                <button class="tab-button" id="tab4">
+                  👉 UP Board Hindi Medium
+                </button>
+                <button class="tab-button" id="tab5">
+                  👉 Bihar Board Hindi Medium
+                </button>
+                <button class="tab-button" id="tab6">👉 Spoken English</button>
+                <button class="tab-button" id="tab7">👉 Vedic Maths</button>
+                <button class="tab-button" id="tab8">👉 Olympiad</button>
+                <button class="tab-button" id="tab9">👉 NTSE</button>
+                <button class="tab-button" id="tab10">👉 CUET</button>
+                <button class="tab-button" id="tab11">👉 IIT-JEE</button>
+                <button class="tab-button" id="tab12">👉 NEET</button>
+                <button class="tab-button" id="tab13">👉 UPSC</button>
+                <button class="tab-button" id="tab14">👉 Bank & Insurance</button>
+                <button class="tab-button" id="tab15">👉 RRB</button>
+                <button class="tab-button" id="tab16">👉 SSC</button>
+                <button class="tab-button" id="tab17">👉 JAIIB & CAIIB</button>
+              </div>
+    
+              <div class="tab-content">
+                <div class="contents" id="content1">
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 12<br />Science Stream</h3>
+                    <h4 id="sub-title"><a href="https://www.magnetbrains.com/courses/cbse-class-12th-science-stream-full-video-course/">Complete Course</a></h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">
+                      📙 Class 12<br />
+                      Commerce Stream
+                    </h3>
+                    <h4 id="sub-title"><a href="https://www.magnetbrains.com/courses/cbse-class-12th-commerce-stream-full-video-course/">Complete Course</a></h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 12<br />Humanities Stream</h3>
+                    <h4 id="sub-title"><a href="https://www.magnetbrains.com/courses/cbse-class-12th-humanities-stream-full-video-course/">Complete Course</a></h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">
+                      📙 Class 11<br />
+                      Science Stream
+                    </h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">
+                      📙 Class 11<br />
+                      Commerce Stream
+                    </h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 11 <br />Humanities Stream</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 10</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 9</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 8</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 7</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 6</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 5</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 4</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 3</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 2</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 1</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Kindergarten</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 NCERT Exemplar</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Extra Learning</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 CBSE Sample Paper Solutions 2024-25</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">
+                      📙 CBSE Previous Year Question Paper Solutions
+                    </h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">
+                      📙 Magnet Brains Sample Paper Solutions 2024-25
+                    </h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">
+                      📙 Magnet Brains Mock Test Paper Solutions 2024-25
+                    </h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                </div>
+                <div class="contents" id="content2">
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 12</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 11</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 10</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 9</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 8</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 7</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 6</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 NCERT Exemplar</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+    
+                  <div class="content-box">
+                    <h3 id="title">📙 CBSE Sample Paper Solutions 2024-25</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">
+                      📙 CBSE Previous Year Question Paper Solutions
+                    </h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">
+                      📙 Magnet Brains Sample Paper Solutions 2024-25
+                    </h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Extra Learning</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                </div>
+                <div class="contents" id="content3">
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 12</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 11</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 10</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 9</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 8</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 7</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 6</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 NCERT Exemplar</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+    
+                  <div class="content-box">
+                    <h3 id="title">📙 Magnet Brains Sample Paper Solutions</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 MP Board Sample Paper Solutions</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Extra Learning</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                </div>
+                <div class="contents" id="content4">
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 12</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 11</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 10</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 9</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 8</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 7</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 6</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Extra Learning</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Previous Year Question Paper Solutions</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Model Paper Solutions</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Magnet Brains Model Paper Solutions</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                </div>
+                <div class="contents" id="content5">
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 12</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 11</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 10</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 9</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 8</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 7</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 6</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Extra Learning</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+    
+                  <div class="content-box">
+                    <h3 id="title">📙 Model Paper Solutions</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Magnet Brains Model Paper Solutions</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Sent Up Exam Practice Paper Solutions</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                </div>
+                <div class="contents" id="content6">
+                  <div class="content-box">
+                    <h3 id="title">📙 Spoken English</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                </div>
+                <div class="contents" id="content7">
+                  <div class="content-box">
+                    <h3 id="title">📙 Vedic Maths</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                </div>
+                <div class="contents" id="content8">
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 10</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 9</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Class 1</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                </div>
+                <div class="contents" id="content9">
+                  <div class="content-box">
+                    <h3 id="title">📙 NTSE All Course</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                </div>
+                <div class="contents" id="content10">
+                  <div class="content-box">
+                    <h3 id="title">📙 CUET/CUCET</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                </div>
+                <div class="contents" id="content11">
+                  <div class="content-box">
+                    <h3 id="title">📙 IIT-JEE All Course</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 IIT-JEE Foundation</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 IIT-JEE Rank Booster Module</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                </div>
+                <div class="contents" id="content12">
+                  <div class="content-box">
+                    <h3 id="title">📙 NEET All Course</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 NEET Foundation</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 NEET Rank Booster Module</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                </div>
+                <div class="contents" id="content13">
+                  <div class="content-box">
+                    <h3 id="title">📙 UPSC All Course</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                </div>
+                <div class="contents" id="content14">
+                  <div class="content-box">
+                    <h3 id="title">📙 SBI PO</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 SBI Clerk</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 IBPS</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 Foundation</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                </div>
+                <div class="contents" id="content15">
+                  <div class="content-box">
+                    <h3 id="title">📙 RRB NTPC</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 RRB ALP</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 RRB Group D</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                </div>
+                <div class="contents" id="content16">
+                  <div class="content-box">
+                    <h3 id="title">📙 SSC CGL</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 SSC CHSL</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 SSC MTS</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                  <div class="content-box">
+                    <h3 id="title">📙 SSC Stenographer</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                </div>
+                <div class="contents" id="content17">
+                  <div class="content-box">
+                    <h3 id="title">📙 JAIIB/CAIIB</h3>
+                    <h4 id="sub-title">Complete Course</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <section id="ytChannel">
+          <h1 style="margin-top: 5%; color: #062951;
+          font-family: Inter;
+          font-size: 30px;
+          font-weight: 800;" class="section_heading">Our YouTube Channels</h1>
+          <div class="ytContainer">
+            <div class="ytBtn">
+              <img src="./unnamed (8).webp" alt="" />
+              <div class="text">
+                <h2 class="yt-title">Magnet Brains English Medium</h2>
+                <h3 class="yt-sub">Kindergarten to Class 12th</h3>
+              </div>
+            </div>
+            <div class="ytBtn">
+              <img src="./unnamed (8).webp" alt="" />
+              <div class="text">
+                <h2 class="yt-title">Magnet Brains Hindi Medium</h2>
+                <h3 class="yt-sub">Class 6th to Class 12th</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="features">
+          <h1 style="margin-top: 5%; margin-left: 9%; color: #062951; font-family: Inter;font-size: 30px;font-weight: 800; margin-bottom: 2%;" class="section_heading">Our Features</h1>
+          <div class="featureContainer">
+            <div class="row">
+              <div class="featureBtn">
+                <img src="./f-1.webp" alt="" />
+                <div class="featureTxt">
+                  <h2>100% Free Quality Education</h2>
+                </div>
+              </div>
+              <div class="featureBtn">
+                <img src="./f-2.webp" alt="" />
+                <div class="featureTxt">
+                  <h2>100% Complete Syllabus</h2>
+                </div>
+              </div>
+              <div class="featureBtn">
+                <img src="./f-3.webp" alt="" />
+                <div class="featureTxt">
+                  <h2>Doubt Solving Sessions</h2>
+                </div>
+              </div>
+              <div class="featureBtn">
+                <img src="./f-4.webp" alt="" />
+                <div class="featureTxt">
+                  <h2>Recorded Video Lectures</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="featureBtn">
+                <img src="./f-5.webp" alt="" />
+                <div class="featureTxt">
+                  <h2>Live Interactive Classes</h2>
+                </div>
+              </div>
+              <div class="featureBtn">
+                <img src="./f-6.webp" alt="" />
+                <div class="featureTxt">
+                  <h2>Exam Preparation Videos</h2>
+                </div>
+              </div>
+              <div class="featureBtn">
+                <img src="./f-7.webp" alt="" />
+                <div class="featureTxt">
+                  <h2>Previous Year Questions</h2>
+                </div>
+              </div>
+              <div class="featureBtn">
+                <img src="./f-8.webp" alt="" />
+                <div class="featureTxt">
+                  <h2>Sample Paper & E-Notes</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="app">
+          <div class="appContainer">
+            <div class="appTextContainer">
+              <h2>Continue Learning on Your Phone</h2>
+              <h3>
+                Download the <span>Magnet Brains App</span> on your Android phone.
+              </h3>
+              <div class="playStoreBtn">
+                <img src="./google-play.webp" alt="Google Play Button" />
+              </div>
+            </div>
+            <div class="appImgContainer">
+              <img src="./MB-NewApp.png" alt="" />
+            </div>
+          </div>
+        </section>
+        <section id="feedback">
+          <h1 style="margin-bottom: 2%;color: #062951; font-family: Inter;font-size: 30px;font-weight: 800;" class="section_heading">What Students Say About Us 😍</h1>
+          <div class="feedbackContainer">
+            <div class="feedbackBox">
+              <p>
+                Thank you so much to magnet brains for helping me clear my
+                concepts through their lectures.<br />
+                I scored 97.4% in my board exams of class 12th. Their lectures
+                helped me to go into depth into every topic and make a strong base
+                out of it!
+              </p>
+              <div class="feedbackStudentDetails">
+                <img
+                  class="studentImg"
+                  src="./Arya-Chaurasiya-2-150x150.webp"
+                  alt="Student Picture"
+                />
+                <div>
+                  <h3 class="studentName">Arya Chourasia</h3>
+                  <h4 class="studentClass">Class 12th</h4>
+                </div>
+              </div>
+            </div>
+            <div class="feedbackBox">
+              <p>
+                Thank you very much🙏<br />
+                I am Prarthana BK from Mysore, Karnataka. I study in Capitol
+                Public School. I have scored an overall percentage of 97.3% as the
+                school topper in my 10th grade. I am ever grateful to the Magnet
+                Brains team for providing excellent education at 0 cost.
+              </p>
+              <div class="feedbackStudentDetails">
+                <img
+                  class="studentImg"
+                  src="./prarthana-1-1-150x150.webp"
+                  alt="Student Picture"
+                />
+                <div>
+                  <h3 class="studentName">Prarthana BK</h3>
+                  <h4 class="studentClass">Class 10th</h4>
+                </div>
+              </div>
+            </div>
+            <div class="feedbackBox">
+              <p>
+                Thank you so much magnet brains 🙏<br />
+                One thing I would like to share that I joined with magnet brains
+                when I was in 9th. It has very awesome faculties which helped me
+                at every step of my journey to boards.<br />
+                Because of which I am able to score 96.60% in boards .
+              </p>
+              <div class="feedbackStudentDetails">
+                <img
+                  class="studentImg"
+                  src="./class-10th-topper-PRANJAL-97--150x150.webp"
+                  alt="Student Picture"
+                />
+                <div>
+                  <h3 class="studentName">Pranjal Pankaj Rajput</h3>
+                  <h4 class="studentClass">Class 10th</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="faqs">
+          <h1 style="margin-top: 3%; margin-bottom: 2%; color: #062951;font-size: 30px; font-weight: 800; letter-spacing: -.3px;" class="section_heading">Frequently Asked Questions</h1>
+          <div class="accordionContainer">
+            <div class="accordionContainerHalf">
+              <div class="single-accordion">
+                <button class="accordion">
+                  Why Choose Magnet Brains?
+                  <img src="./arrow-down-sign-to-navigate.png" alt="" />
+                </button>
+                <div class="panel">
+                  <p>
+                    Magnet Brains is India’s leading ed-tech platform providing
+                    high-quality education across India in English and Hindi
+                    medium. With the most effective and innovative learning
+                    solutions, we cater to the academic needs covering all the
+                    subjects across the (K-12) NCERT/CBSE framework along with
+                    NTSE/Olympiad/CUET and other competitive exams like
+                    IIT/JEE/NEET/UPSC/Banking and
+                    Insurance/Railways/SSC/JAIIB/CAIIB.
+                  </p>
+                </div>
+              </div>
+              <div class="single-accordion">
+                <button class="accordion">
+                  Our Vision?
+                  <img src="./arrow-down-sign-to-navigate.png" alt="" />
+                </button>
+                <div class="panel">
+                  <p>
+                    As it is said, “Alone we can do so little, together we can do
+                    so much”, and it’s true to the saying that coming together can
+                    let everyone walk farther. At Magnet Brains, we relentlessly
+                    work with the vision to make education entirely free and
+                    accessible to all without any barriers. Impacting 10 Million+
+                    learners across India we aim to inspire the young minds of our
+                    nation to the best of our capabilities.
+                  </p>
+                </div>
+              </div>
+              <div class="single-accordion">
+                <button class="accordion">
+                  What Magnet Brains provide?
+                  <img src="./arrow-down-sign-to-navigate.png" alt="" />
+                </button>
+                <div class="panel">
+                  <p>
+                    We provide 100% free and high-quality education in both Hindi
+                    and English medium covering all the subjects from Kindergarten
+                    to Class 12th (NCERT/CBSE), Hindi medium (UP Board, Bihar
+                    Board, MP Board) along with the preparations for various
+                    school-level Olympiads, NTSE exams, and CUCET/CUET exams.
+                    Along with this, we provide a complete one-stop solution to
+                    prepare for various competitive exams like IIT
+                    JEE/NEET/Banking and Insurance/JAIIB/CAIIB/UPSC/SSC/RRB with a
+                    separate structured and dedicated section for the preparation
+                    of each and every exam from best faculties. We are a one-stop
+                    solution for all your academic preparations with the most
+                    comprehensive learning experience.
+                  </p>
+                </div>
+              </div>
+              <div class="single-accordion">
+                <button class="accordion">
+                  Does Magnet Brains have any other channels?
+                  <img src="./arrow-down-sign-to-navigate.png" alt="" />
+                </button>
+                <div class="panel">
+                  <p>
+                    We have sectioned all our channels to deliver the most
+                    strategic and structured learning solutions required for
+                    different exam preparations. Magnet Brains English Medium– It
+                    caters to all the academic preparations across the (K-12)
+                    NCERT/CBSE framework along with various school- examinations.
+                    Click here Magnet Brains Hindi Medium– It caters to all the
+                    academic preparations from classes 7 to 12. Click here Magnet
+                    Brains IIT JEE & NEET– It is specially designed to cater to
+                    all the preparation-related assistance for IIT-JEE and NEET
+                    aspirants. Here you will get the entire preparation sectioned
+                    in a systematic way with a step-by-step and in-depth approach
+                    to all the subjects. Click here Magnet Brains Competition– It
+                    is specially curated to cater to all the preparation-related
+                    assistance for everyone preparing for various government
+                    competitive exams. Click here
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordionContainerHalf">
+              <div class="single-accordion">
+                <button class="accordion">
+                  Do we provide other Features?
+                  <img src="./arrow-down-sign-to-navigate.png" alt="" />
+                </button>
+                <div class="panel">
+                  <p>
+                    1. We cover subjects like Artificial Intelligence, Psychology,
+                    Sociology, Legal Studies, Physical Education, Sanskrit,
+                    Entrepreneurship, and many more additional subjects that help
+                    students excel not only in school but also in their field of
+                    interest, providing them with a wider scope of learning and
+                    exploring. 2. To keep your performance and preparation on
+                    track you get- > Topic-wise explanation > Daily practice
+                    problems PDF and solutions > Chapter-wise MCQs > Previous year
+                    questions > Live doubt-solving sessions > Weekly test papers >
+                    One-shot revisions > Online test series > Unlimited access to
+                    high-quality educational videos. > In-depth concept
+                    explanation 3. We also provide fun and enriching videos
+                    related to DIY art & crafts, One-stop series, Mini-jankari
+                    series, Spoken English courses, storytelling sessions, DIY
+                    experiments and many more for the most fun and enriching
+                    learning experience.
+                  </p>
+                </div>
+              </div>
+              <div class="single-accordion">
+                <button class="accordion">
+                  How to get our expert notes?
+                  <img src="./arrow-down-sign-to-navigate.png" alt="" />
+                </button>
+                <div class="panel">
+                  <p>
+                    Get our comprehensive study material to kickstart your
+                    preparation game with India’s largest online learning platform
+                    with the below link and choose the notes at your convenience.
+                    Get notes Click here
+                  </p>
+                </div>
+              </div>
+              <div class="single-accordion">
+                <button class="accordion">
+                  Does Magnet Brains have a learning App?
+                  <img src="./arrow-down-sign-to-navigate.png" alt="" />
+                </button>
+                <div class="panel">
+                  <p>
+                    You can download our learning app from Google PlayStore with
+                    the given link Download our android app Click here
+                  </p>
+                </div>
+              </div>
+              <div class="single-accordion">
+                <button class="accordion">
+                  How to contact Magnet Brains in case of queries and feedback?
+                  <img src="./arrow-down-sign-to-navigate.png" alt="" />
+                </button>
+                <div class="panel">
+                  <p>
+                    You can contact us at support@magnetbrains.com in case of
+                    queries and feedback.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <div class="top-foot">
+            <div class="col">
+              <h2>Company</h2>
+              <ul class="linkList">
+                <li>
+                  <a href=""> Contact Us </a>
+                </li>
+                <li>
+                  <a href=""> About Us </a>
+                </li>
+                <li>
+                  <a href="">Privacy Policy </a>
+                </li>
+                <li>
+                  <a href="">Terms and Conditions</a>
+                </li>
+                <li>
+                  <a href=""> Careers</a>
+                </li>
+              </ul>
+            </div>
+    
+            <div class="col">
+              <h2>Study material</h2>
+              <ul class="linkList">
+                <li>
+                  <a href="">English Medium E-Notes </a>
+                </li>
+                <li>
+                  <a href="">Hindi Medium E-Notes</a>
+                </li>
+                <li>
+                  <a href="">Magnet Brains Sample Paper</a>
+                </li>
+                <li>
+                  <a href="">CBSE Previous Year Paper</a>
+                </li>
+                <li>
+                  <a href="">Spoken English</a>
+                </li>
+              </ul>
+            </div>
+    
+            <div class="col">
+              <h2>OUR TOP COURSES</h2>
+              <ul class="linkList">
+                <li>
+                  <a href="">Class 12th Science Stream</a>
+                </li>
+                <li>
+                  <a href="">Class 12th Commerce Stream Class </a>
+                </li>
+                <li>
+                  <a href="">12th Humanities Stream Class </a>
+                </li>
+                <li>
+                  <a href="">11th Science Stream Class </a>
+                </li>
+                <li>
+                  <a href="">11th Commerce Stream Class </a>
+                </li>
+                <li>
+                  <a href="">11th Humanities Stream</a>
+                </li>
+                <li>
+                  <a href="">Class 10th All Subjects</a>
+                </li>
+                <li>
+                  <a href="">Class 9th All Subjects</a>
+                </li>
+                <li>
+                  <a href="">Class 8th All Subjects</a>
+                </li>
+                <li>
+                  <a href="">Class 7th All Subjects</a>
+                </li>
+                <li>
+                  <a href="">Class 6th All Subjects</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <img class="MBLogo" src="assets/logoFooter.png" alt="" />
+              <ul class="contactList">
+                <li>
+                  <h4>
+                    Address: 10 No. Market, E-3/49, Arera Colony, Bhopal, Madhya Pradesh, 462016
+                  </h4>
+                </li>
+                <li>
+                  <svg style="margin-right: 10px;"  xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg> 
+                  7415647124
+                </li>
+                <li>
+                  <svg style="margin-right: 10px;" xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg> Support:
+                   7415647124
+                </li>
+                <li>
+                  <svg style="margin-right: 10px;"  xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg> 
+                  7869664023
+                </li>
+                <li>
+                  <a href="mailto:support@magnetbrains.com"
+                    ><svg style="margin-right: 10px;" xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M64 112c-8.8 0-16 7.2-16 16l0 22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1l0-22.1c0-8.8-7.2-16-16-16L64 112zM48 212.2L48 384c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-171.8L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128z"/></svg>Email:
+                    support@magnetbrains.com</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:hr@magnetbrains.com"
+                    ><svg style="margin-right: 10px;" xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M64 112c-8.8 0-16 7.2-16 16l0 22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1l0-22.1c0-8.8-7.2-16-16-16L64 112zM48 212.2L48 384c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-171.8L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128z"/></svg>Careers:
+                    hr@magnetbrains.com</a
+                  >
+                </li>
+              </ul>
+    
+              <img class="downloadBtn" src="./google-play.webp" alt="" />
+            </div>
+          </div>
+          <div class="bottom-foot">
+            <div class="right-reserved">
+              <p>Magnet Brains Learning Foundation©2024. All rights reserved.</p>
+            </div>
+            <div class="social-container">
+              <a class="socials-box" href=""
+                ><svg xmlns="http://www.w3.org/2000/svg" height="14" width="15.75" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg>
+            </a>
+              <a class="socials-box" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" height="14" width="12.25" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+              </a>
+              <a class="socials-box" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
+              </a>
+              <a class="socials-box" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" height="14" width="13.5625" viewBox="0 0 496 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M248 8C111 8 0 119 0 256S111 504 248 504 496 393 496 256 385 8 248 8zM363 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5q-3.3 .7-104.6 69.1-14.8 10.2-26.9 9.9c-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3q.8-6.7 18.5-13.7 108.4-47.2 144.6-62.3c68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9a10.5 10.5 0 0 1 3.5 6.7A43.8 43.8 0 0 1 363 176.7z"/></svg>
+              </a>
+              <a class="socials-box" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+              </a>
+              <a class="socials-box" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" height="14" width="12.25" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+              </a>
+            </div>
+          </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
